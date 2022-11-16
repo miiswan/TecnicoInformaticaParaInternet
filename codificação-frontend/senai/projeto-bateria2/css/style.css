@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+html{
+    --title-color: #ffff;
+    --base-color: #333;
+    --base-color-second: #00ff7f;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--base-color);
+
+}
+
+h1{
+    color: var(--title-color);
+    margin-bottom: 2rem;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.key{
+    width: 8rem;
+    height: 8rem;
+    border: 0.2rem solid var(--title-color);
+    color: var(--title-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* .key.active - fzr dps */
+
+/* caixa da composição - input e button */
+.composer{
+    width: 26rem;
+    margin-top: 2rem;
+
+}
+
+.composer #input{
+ width: 100%;
+ outline: none;
+ font-size: 1.7rem;
+ padding: 1rem 1.5rem;
+}
