@@ -1,0 +1,139 @@
+:root{
+--white: #fff;
+--black: #000;
+
+--dark-blue-800:#212733;
+--dark-blue-600:#1f242e;
+--dark-blue-500:#2c303b;
+--dark-blue-400:#292d39;
+--dark-blue-300:#2b3240;
+
+--blue-400:#44557a;
+
+--gray-500:#4e4e4c;
+--gray-400:#ccc5bb;
+--gray-300:#cdc6bc;
+--gray-200:#ebe6de;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+/* inicio do header */
+header{
+    background-color: var(--dark-blue-800);
+}
+.header ul{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: var(--white);
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+
+}
+
+.menu-item{
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.menu-item:hover{
+    background-color: var(--dark-blue-300);
+}
+
+.menu-img{
+    background-color: var(--gray-500);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-info p{
+    font-weight: bold;
+}
+
+.menu-info span{
+    font-size: 0.9rem;
+}
+
+.menu-item button{
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+/* fim do header */
+
+/* inicio da navegação */
+.navbar{
+    /* aplicando o flexbox */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 0;
+}
+
+.navbar-brand a{
+    color: var(--black);
+    text-decoration: none;
+}
+.navbar-brand p{
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.navbar-brand span{
+    font-size: 1rem;
+    margin-top: 0;
+}
+.nav-list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 1rem;
+}
+
+.nav-link{
+    color: var(--dark-blue-300);
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.nav-button{
+    border: none;
+    background-color: var(--dark-blue-300);
+    border-radius: 8px;
+    color: var(--gray-200);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    transition: all .4s;
+}
