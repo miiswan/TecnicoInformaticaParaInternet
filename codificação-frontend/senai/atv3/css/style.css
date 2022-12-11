@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+     padding: 0;
+    margin: 0;
+    position: relative;
+  
+    height: 2507px;
+     display: flex;
+    justify-content: center;
+     align-items: center; 
+    flex-direction: column; 
+    background: #FFFFFF; 
+    /* border: solid blue; */
+}
+ .container{
+      width: 1280px;
+      height: 2507px;
+      /* border: solid orange; */
+} 
+
+header{
+    position: absolute;
+width: 1280px;
+height: 100px;
+/* left: 0px; */
+top: 0px;
+
+    
+}
+header h1{
+    
+position: absolute;
+width: 100%;
+height: 32.23px;
+margin-left: 37px;
+margin-top: 33.88px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.navbar{
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    margin-left: 493px;
+    margin-top: 15px;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 0px;
+    gap: 29px;
+    list-style: none;
+   
+  
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+
+
+}
+main{
+    position: absolute;
+width: 1281px;
+height: 2103px;
+left: 0px;
+top: 100px;
+    /* border: solid black; */
+   
+}
+.section-um{
+    
+    position: absolute;
+width: 1280px;
+height: 803px;
+left: 0px;
+top: 0px;
+    /* border: solid rebeccapurple; */
+ 
+
+}
+.foto-um{
+    position: absolute;
+    width: 640px;
+    height: 803px;
+    left: 0px;
+    top: 0px;
+    
+  
+}
+.foto-dois{
+    position: absolute;
+    width: 640px;
+    height: 803px;
+    left: 640px;
+    top: 0px;
+  
+}
+.section-dois{
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    left: 0px;
+    top: 800px;
+    
+    /* border: solid yellow; */
+}
+.foto-tres{
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 0px;
+    /* top: 903px */
+}
+.foto-quatro{
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 320px;
+    /* top: 903px */
+}
+.foto-cinco{
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 640px;
+    /* top: 903px; */
+}
+.foto-seis{
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 960px;
+    /* top: 903px */
+}
+.section-tres{
+    position: absolute;
+    width: 1281px;
+    height: 700px;
+    left: 0px;
+    top: 1410px;
+/* border-color: solid palevioletred; */
+}
+.foto-sete{
+    position: absolute;
+    width: 429px;
+    height: 700px;
+    left: 0px;
+    
+    /* top: 1503px; */
+}
+.foto-oito{
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    left: 428px;
+    /* top: 1503px; */
+    
+}
+.foto-nove{
+    position: absolute;
+    width: 425px;
+    height: 700px;
+    left: 856px;
+    /* top: 1503px; */
+    
+}
+footer{
+    position: absolute;
+width: 1281px;
+height: 294px;
+left: -1px;
+top: 2213px;
+    background-color: #000000;
+    
+}
+footer p{
+    color: white;
+}
+.logo{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+}
+footer hr{
+    color: #FFFFFF;
+}
+.direitos{
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+margin-left: 20px;
+margin-top: 100px;
+}
