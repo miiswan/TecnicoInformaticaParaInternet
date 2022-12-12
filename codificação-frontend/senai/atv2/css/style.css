@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    
+position: relative;
+width: 1280px;
+height: 3055px;
+
+background: #F8F8F8;
+}
+header{
+    position: absolute;
+width: 1280px;
+height: 650px;
+left: 0px;
+top: 0px;
+background-image: url(../img/Rectangle\ 1.png);
+}
+.navbar{
+    position: absolute;
+width: 1200px;
+height: 100px;
+left: 40px;
+background-color: #ffff;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: flex-start;
+    padding: 11px 0px;
+    gap: 54px;
+    list-style: none;
+    margin-left: 345px;
+   
+    
+}
+nav a{
+  
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.navlogin{
+    font-weight: 700;
+}
+
+header a{
+text-decoration: none;
+color: #000000;
+}
+
+.logo-header{
+    position: absolute;
+width: 82px;
+height: 100px;
+
+background: #353CF3;
+}
+header h1{
+    color: #ffff;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+margin-left: 15px;
+}
+main{
+    position: absolute;
+width: 1202px;
+height: 2092px;
+left: 39px;
+top: 680px;
+}
+footer{
+    position: absolute;
+width: 1280px;
+height: 233px;
+left: 0px;
+top: 2822px;
+background-color: #ffff;
+}
+.logo{
+    
+position: absolute;
+width: 83px;
+height: 100px;
+ margin-left: 39px;
+
+
+background-color: #353CF3;
+}
+footer h1{
+    color: #ffff;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+margin-left: 15px;
+}
+.texto-um{
+    
+position: absolute;
+width: 170px;
+height: 140px;
+left: 243px;
+}
+.texto-dois{
+    position: absolute;
+width: 181px;
+height: 140px;
+left: 510px;
+}
+.texto-tres{
+    position: absolute;
+width: 181px;
+height: 140px;
+left: 792px;
+}
+.texto-quatro{
+    position: absolute;
+width: 166.3px;
+height: 140px;
+left: 1074px;
+}
+.titulo{
+    color: black;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+footer p{
+    color: black;
+    font-family: 'Inter';
+font-style: normal;
+
+font-size: 16px;
+line-height: 19px;
+}
+.direitos{
+    position: absolute;
+width: 320px;
+height: 24px;
+left: 482px;
+margin-top: 202px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+
+
+letter-spacing: 0.085em;
+
+color: #000000;
+}
+.contato{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+.p1{
+    position: absolute;
+width: 200px;
+height: 19px;
+left: 870px;
+top: 119px;
+
+}
+.p2{
+    position: absolute;
+width: 136px;
+height: 19px;
+left: 1104px;
+top: 119px;
+}
