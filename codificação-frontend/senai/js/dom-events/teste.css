@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2E8DF;
+
+}
+
+    
+
+.btnOpenModal {
+    font-size: x-large;
+    padding: 10px;
+    border: 1px solid #A69D92 ;
+    border-radius: 5px;
+    background-color: #F299B1;
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+
+
+.modal-container{
+    width: 140vw;
+    position: fixed;
+    height: 60vh;
+    top: 60px;
+    display: none;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction:  column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+.active {
+    display: flex;
+}
+
+.active .modal {
+    animation: modal .4s;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+    
+}
+
+p{
+    margin: 10px auto;
+    font-style: italic;
+}
+
+.btns{
+    display: flex;
+    margin-top: 10px;
+    align-items: baseline;
+    position: absolute;
+    bottom: 0px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btns button{
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.btnYes {
+    background-color: #F2B6A0;
+}
+
+.btnClose {
+    background-color: #F29985;
+}
