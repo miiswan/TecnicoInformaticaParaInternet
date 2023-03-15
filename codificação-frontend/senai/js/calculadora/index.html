@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <input class="screen" type="text" disabled value="0" id="result">
+                <div class="row">
+                    <button class="gray black" onclick="calculate('action', 'ac')">AC</button>
+                    <button class="gray black" onclick="calculate('action', '+/-')"">+/-</button>
+                    <button class="gray black" onclick="calculate('action', '%')"">%</button>
+                    <button class="orange" onclick="calculate('action', '/')"">/</button>
+                </div>
+
+                <div class="row">
+                    <button class="gray black" onclick="calculate('value', 7)">7</button>
+                    <button  class="gray black" onclick="calculate('value', 8)">8</button>
+                    <button class="gray black"onclick="calculate('value', 9)">9</button>
+                    <button onclick="calculate('action', 'x')" class="orange">x</button>
+                </div>
+
+                <div class="row">
+                    <button class="gray black" onclick="calculate('value', 4)">4</button>
+                    <button class="gray black" onclick="calculate('value', 5)">5</button>
+                    <button class="gray black" onclick="calculate('value', 6)">6</button>
+                    <button onclick="calculate('action', '-')" class="orange">-</button>
+                </div>
+
+                <div class="row">
+                    <button class="gray black" onclick="calculate('value', 1)">1</button>
+                    <button class="gray black" onclick="calculate('value', 2)">2</button>
+                    <button class="gray black" onclick="calculate('value', 3)">3</button>
+                    <button onclick="calculate('action', '+')" class="orange">+</button>
+                </div>
+
+                <div class="row">
+                    <button class="zero" onclick="calculate('value', 0)">0</button>
+                    <button onclick="calculate('action', '.')" class="gray black">.</button>
+                    <button onclick="calculate('action', '=')" class="oran">=</button>
+                    
+                </div>
+
+
+
+                
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
