@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #111827;
+    color: white;
+}
+.title{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.pointer{
+    width: 16px;
+    height: 16px;
+    background: #0073B0;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16vw;
+
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+main section .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+main section .content .image img{
+    height: 456px;
+    filter: drop-shadow(4px 4px 24px rgba(0, 115, 176, 0.32));
+}
+
+main section .content .forms{
+    width: 480px;
+    height: 457px;
+    background-color: #f9f9fb;
+    border-radius: 0.4rem;
+
+}
+
+.form-title{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+   
+}
+
+main section  .content .forms form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+    gap: 24px;
+   margin-top: 24px;
+
+}
+
+.email{
+    background-color: #7180B952;
+    background-image: url(img/EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    width: 400px;
+    height: 48px;
+    padding-left: 52px;
+    border-radius: 4px;
+    border: none;
+    border: 2px solid transparent;
+
+}
+.password{
+    background-color: #7180B952;
+    background-image: url(/img/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 52px;
+    border: 2px solid transparent;
+}
+button{
+
+    background: #7180B9;
+    border-radius: 4px;
+    border: none;
+    width: 400px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.line{
+    width: 124px;
+    height: 0px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+footer {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 29px;
+    padding-left: 40px;
+}
+
+footer p{
+    white-space: nowrap;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+ 
+
+   margin-left: 40px;
+   
+}
+.github{
+   
+    background: #7180B9;
+    border-radius: 4px;
+    background-image: url(/img/GithubLogo.svg);
+    background-repeat: no-repeat;
+    background-position: 34px;
+    
+}
+
+   
+
+
+
+    
