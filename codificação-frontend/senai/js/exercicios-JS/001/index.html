@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercício 01</title>
+    <link rel="stylesheet" href="/001/01style.css">
 </head>
 <body>
     <main>
+        <section>
+            <div class="section-title">
         <h1>Video Locadora JS</h1>
-        <hr>
+        </div>
+      
+        <div class="section-content">
+            <form >
+            <div class="film-title">
+               <label for="inTitle">Título de filme:</label>
+                <input type="text" name="inTitle" id="inTitle">
+            </div
+           >
 
-        <h3>Título do filme:</h3>
-        <input type="text" class="title">
-
-        <h3>Duração (min):</h3>
-        <input type="number" class="min" id="min">
-        <br>
-        <br>
-        <button class="converter">Converter em Horas e Minutos</button>
-
-        <p id="result"></p>
-
+            <div class="film-duration">
+                <label for="">Duração (min):</label>
+                <input type="text" name="inDuration" id="inDuration">
+            </div>
+        </form>
+       
+      
+        <div class="button-converter">
+        <button id="btnConverter">Converter em Horas e Minutos</button>
+        </div> 
+        </div>
+       
+        <div class="messages-finals">
+            <p id="outTitle"></p>
+            <p id="outDuration"></p>
+        </div>
+    </section>
     </main>
     <script src="/001/01script.js"></script>
 </body>
