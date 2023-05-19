@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    
+}
+button {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid white;
+}
+.like p, i {
+    color: aliceblue;
+}
+
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;    
+    flex-direction: column;
+    gap: 15px;
+}
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    margin-top: 155px;
+}
+.card-img {
+    background-image: url(./img/img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 300px;
+    border-radius: 5px;
+
+    perspective: 1000px;
+}
+/* .back {
+        background-image: url(./img/img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 300px;
+    border-radius: 5px;
+} */
+
+.card-name {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: white;
+}
+.card-city {
+    color: white;
+}
+.card-name::after {
+    content: "";
+
+    display: block;
+    width: 11rem;
+    height: 0.2rem;
+    margin: 0 auto;
+
+    background-color: aliceblue;
+}
