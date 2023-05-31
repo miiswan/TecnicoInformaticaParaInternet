@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    margin-top: 30px;
+    text-align: center;
+}
+.title-logo {
+    font-weight: 200;
+}
+
+.name-logo {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav {
+    border: 2px solid black;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-item {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fotos-grid {
+    background-color: #b3b3b3;
+    height: 850px;
+    width: 80rem;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'foto1 foto1 foto2'
+    'foto3 foto4 foto2';
+    padding-top: 25px;
+
+    
+}
+
+#foto1 {
+    grid-area: foto1;
+
+}
+#foto2 {
+    height: 50rem;
+    grid-area: foto2;
+}
+#foto3 {
+    
+    grid-area: foto3;
+}
+foto4 {
+
+    grid-area: foto4;
+
+}
+
+.footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p-footer { 
+    text-align: center;
+    font-size: 1.5rem;
+}
+.redes {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
