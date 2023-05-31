@@ -1,0 +1,218 @@
+:root{
+    /* ### Primary */
+    --light-red: hsl(0, 100%, 67%);
+    --light-red-100:hsla(0, 100%, 67%, .1);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --orangey-yellow-100: hsla(39, 100%, 56%, .1);
+    --green-teal: hsl(166, 100%, 37%);
+    --green-teal-100: hsla(166, 100%, 37%, .1);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --cobalt-blue-100: hsla(234, 85%, 45%, .1);
+    
+    
+    /* ## Gradients background */
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+    
+    
+    /* ## Gradients circle */
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+    
+    
+    /* ### Neutral */
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+    
+    
+    --background-color: #f1f1f1;
+    }
+    
+    
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+    }
+    
+    
+    html, body{
+        font-family: 'Hanken Grotesk', sans-serif;
+        background-color: var(--background-color);
+    }
+    
+    
+    p{
+        font-size: 18px;
+    }
+    
+    
+    .box-reaction{
+        background-color: var(--light-red-100);
+        color: var(--light-red);
+    }
+    
+    
+    .box-memory{
+        background-color: var(--orangey-yellow-100);
+        color:var(--orangey-yellow)
+    }
+    
+    
+    .box-verbal{
+        background-color: var(--green-teal-100);
+        color: var(--green-teal);
+    }
+    
+    
+    .box-visual{
+        background-color: var(--cobalt-blue-100);
+        color: var(--cobalt-blue);
+    }
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+        width: 100vw;
+        height: 100vh;
+        max-width: 1440px;
+        min-width: 375px;
+    }
+    
+    
+    main{
+        background-color: var(--white);
+        border-radius: 22px;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    
+    .result{
+        background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+        padding: 2rem;
+        color: var(--light-lavender);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        border-radius: 22px;
+    }
+    
+    
+    .result .result-points{
+        background: linear-gradient(var(--violet-blue), var(--persian-blue));
+        padding: 2rem;
+        border-radius: 50%;
+    }
+    
+    
+    .result-points{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 9rem;
+        font-size: .8rem;
+    }
+    
+    
+    .result-points span{
+        color: var(--white);
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    
+    .result-feedback{
+        color: var(--white);
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    
+    
+    .result-description{
+        max-width: 16rem;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    
+    
+    .summary{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    
+    .summary h3{
+        color: var(--dark-gray-blue);
+    }
+    
+    
+    .summary-box{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: .7rem;
+        border-radius: 8px;
+    }
+    
+    
+    .summary-info{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+    
+    
+    .summary-box h5{
+        color: var(--dark-gray-blue);
+    }
+    
+    
+    .summary-calc span{
+        font-weight: 700;
+    }
+    
+    
+    .summary button{
+        background-color: var(--dark-gray-blue);
+        border: none;
+        border-radius: 22px;
+        color: var(--white);
+        font-weight: 700;
+        padding: .8rem 5rem;
+    }
+    
+    
+    @media only screen and (max-width:610px){
+        main{
+            display: flex;
+            flex-flow: column wrap;
+        }
+    
+    
+        .result{
+            width: 100%;
+        }
+    
+    
+        .summary{
+            max-width: 500px;
+        }
+    }
+    
+
+    
