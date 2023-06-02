@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    background-color: hsl(27, 66%, 92%);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 8rem;
+ 
+}
+.balance {
+    font-size: 15px;
+    font-weight: 400;
+}
+.number {
+    font-size: 23px;
+    font-weight: 700;
+}
+.box1-p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+.box-1 p {
+    color: white;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    background-color: hsl(10, 79%, 65%);
+    width: 35rem;
+    height: 7rem;
+    border-radius: 15px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 1rem;
+ 
+}
+.box2-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+} 
+.box-2 {
+    background-color: hsl(33, 100%, 98%);
+    width: 35rem;
+    height: 32rem;
+    border-radius: 15px;
+}
+
+.total {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.this-month {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-this {
+    color: gray;
+}
+.number-this {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.number-last {
+    text-align: end;
+    font-weight: 700;
+}
+.p-last {
+    color: gray;
+}
+.days p {
+    color: gray;
+}
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 20px;
+}
+.barra-mon {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.barra-tue {
+    width: 50px;
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.barra-wed {
+    width: 50px;
+    height: 150px;
+    background-color:  hsl(186, 34%, 60%);
+     border-radius: 5px;
+}
+.barra-thu {
+    width: 50px;
+    height: 90px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.barra-fri {
+    width: 50px;
+    height: 70px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.barra-sat {
+    width: 50px;
+    height: 120px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.barra-sun {
+    width: 50px;
+    height: 85px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+
+.line {
+    width: 32rem;
+    height: 2px;
+    background-color: hsl(27, 66%, 92%);
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.grafico {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.caixa {
+    background-color: hsl(10, 79%, 65%);
+    width: 3rem;
+    height: 5rem;
+    border-radius: 7px;
+ 
+}
