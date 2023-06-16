@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Space Mono',sans-serif;
+}
+body {
+    background-color:hsl(185, 41%, 84%)
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+#btns {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+#box2p {
+    color: white;
+    font-weight: 600;
+}
+.custom {
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 0.5rem;
+    font-weight: 800;
+}
+#number {
+    width: 20rem;
+    height: 2rem;
+    background-image: url(./images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+}
+.people {
+    width: 20rem;
+    height: 2rem;
+    background-image: url(./images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+}
+.item1 {
+    display: flex;
+    gap: 10rem;
+}
+.value , .value2 {
+    color: hsl(172, 67%, 45%);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.value2 {
+    margin-left: 3rem;
+}
+.item2 {
+    display: flex;
+    gap: 10rem;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.item p {
+    color: hsl(183, 100%, 15%);
+    font-weight: 600;
+}
+
+.btn-reset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+    
+}
+.reset {
+    background-color: hsl(172, 67%, 45%);
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.title {
+    color: hsl(183, 100%, 15%);
+    font-weight: 550;
+}
+.box {
+
+    margin-top: 2rem;
+    background-color: white;
+    width: 55rem;
+    height: 25rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+  
+  justify-content: center;
+  gap: 3rem;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 25rem;
+    height: 20rem;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 2rem;
+
+}
