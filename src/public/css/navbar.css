@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 16px 0;
+    border-bottom: 2px solid #e4f1ff;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    gap: 24px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    color: #068fff;
+}
